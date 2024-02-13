@@ -5,7 +5,7 @@ from firebase_admin import auth
 
 cred=credentials.Certificate('pondering-c9243-7a9b8f0e5530.json')
 # We just need to below line onces after commet it
- firebase_admin.initialize_app(cred)
+firebase_admin.initialize_app(cred)
 
 def app():
     print("App is running in account")
